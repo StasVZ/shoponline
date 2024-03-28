@@ -1,0 +1,493 @@
+.shop{
+  margin-bottom: 190px;
+}
+
+.shop img{
+  width: 100%;
+  height: 100%;
+}
+
+.promo__text{
+  position: absolute;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 130%;
+  top:145px;
+  left: 112px;
+}
+
+.promo__time-one{
+  position: absolute;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  left:823px;
+  bottom: 133px;
+}
+
+.promo__time-two{
+  position: absolute;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  bottom: 40px;
+  right: 648px;
+  word-spacing: 30px;
+}
+.promo__number{
+font-weight: 700;
+font-size: 60px;
+line-height: 130%;
+}
+
+
+.shop__link{
+  position: relative;
+  
+}
+
+.shop__promo{
+  position: relative;
+  background-size: contain;
+  width: 1770px;
+  height: 480px;
+  background-image: url(../img/banner.jpg);
+  color: white;
+  margin-bottom: 60px;
+}
+
+.shop__link span{
+  position: absolute;
+}
+
+.shop__discount{
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  background-color: #ffbd13;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.discount-one{
+  right: 20px;
+  top:137px;
+}
+.discount-two{
+  top:20px;
+  left:20px;
+}
+.discount-three{
+  top: 137px;
+  right: 20px;
+}
+.discount-four{
+  bottom: 20px;
+  right: 20px;
+}
+.discount-five{
+  top:20px;
+  left:20px;
+}
+
+
+.shop__list{
+  display: grid;
+  gap: 60px;
+  grid-template-areas: 
+  "book time two-pair two-pair present-box present-box"
+  "red-sneakers red-sneakers two-pair two-pair laptop laptop"
+  "ny2022 ny2022 ny2022 ny2022 red-dress chem"
+  "ny2022 ny2022 ny2022 ny2022 red-dress ny-ball"
+}
+
+.item-one{
+  grid-area: book;
+}
+.book{
+  width: 80%;
+  font-weight: 400;
+  font-size: 30px;
+  left: 20px;
+  top: 97px;
+}
+.book-b{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+
+.item-two{
+  grid-area: time;
+}
+.time{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  left: 14px;
+  top:78px;
+}
+
+.item-three{
+  grid-area: red-sneakers;
+}
+
+.item-four{
+  grid-area: two-pair;
+}
+.second-pair{
+  left: 20px;
+  top: 350px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  border-radius: 20px;
+  width: 510px;
+  height: 178px;
+  background: #38c0eb;
+  padding: 26px 24px;
+}
+.pair-b{
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.item-five{
+  grid-area: present-box;
+}
+.ny-present{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  top:104px;
+  left:20px;
+}
+
+.item-six{
+  grid-area: laptop;
+}
+.december{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  top:160px;
+  left: 30px;
+}
+
+.item-seven{
+  grid-area: red-dress;  
+}
+.item-eight{
+  grid-area: chem;
+}
+.chemical{
+  position: absolute;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  left: 20px;
+  bottom: 20px;
+}
+
+.item-nine{
+  grid-area: ny-ball;
+}
+.item-ten{
+  grid-area: ny2022;
+}
+.ny-decoration{
+  border-radius: 20px;
+  width: 643px;
+  height: 115px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #f91155;
+  background-color: #fff;
+  left: 50px;
+  bottom: 50px;
+  text-align: center;
+  padding-top: 32px;
+}
+
+
+@media (max-width:1024px){
+  .shop__list{
+    gap: 24px;
+    grid-template-areas: 
+    "book time two-pair two-pair"
+    "red-sneakers red-sneakers two-pair two-pair"
+    "present-box present-box red-dress chem"
+    "laptop laptop red-dress ny-ball"
+    "ny2022 ny2022 ny2022 ny2022"
+    "ny2022 ny2022 ny2022 ny2022"
+  }
+
+  .discount-one{
+    right: 10px;
+    top:120px;
+  }
+  .discount-two{
+    top:10px;
+    left:10px;
+  }
+  .discount-three{
+    top: 125px;
+    right: 10px;
+  }
+  .discount-four{
+    bottom: 10px;
+    right: 10px;
+  }
+  .discount-five{
+    top:10px;
+    left:10px;
+  }
+
+  .shop__promo{
+    background-image: url(../img/banner-1024.jpg);
+    background-repeat: no-repeat;
+    width: 940px;
+    height: 314px;
+  }
+
+  .shop{
+    margin-bottom: 105px;
+  }
+
+  .promo__text{
+    position: absolute;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    top:80px;
+    left: 80px;
+    width: 30%;
+  }
+
+  .promo__time-one{
+    left: 410px;
+    top: 195px;
+  }
+
+  .promo__time-two{
+    font-size: 20px;
+    bottom: 36px;
+    right: 312px;
+    word-spacing: 30px;
+  }
+
+  .promo__number{
+    font-size: 40px;
+  }
+
+  .book{
+    left: 9px;
+    top:123px;
+    font-size: 24px;
+    width: 190px;
+  }
+
+  .book-b{
+    font-size: 30px;
+  }
+
+  .time{
+    font-size: 24px;
+    left: 9px;
+    top:58px;
+  }
+
+  .second-pair{
+    left: 22px;
+    top: 290px;
+    font-size: 30px;
+    width: 414px;
+    height: 146px;
+    padding: 29px 25px;
+  }
+
+  .pair-b{
+    font-size: 40px;
+  }
+
+  .ny-present{
+    font-size: 30px;
+    top:110px;
+    left:20px;
+    padding-right: 40px;
+    }
+
+  .december{
+    font-size: 30px;
+    top:160px;
+    left: 20px;
+}
+
+.chemical{
+  font-size: 20px;
+  left: 14px;
+  bottom: 14px;
+}
+
+.ny-decoration{
+  border-radius: 16px;
+  width: 513px;
+  height: 83px;
+  font-size: 30px;
+  left: 30px;
+  bottom: 40px;
+  padding-top: 24px;
+}
+}
+
+
+@media (max-width:450px){
+  .shop__list{
+    gap: 20px;
+    grid-template-columns: 130px 130px;
+    grid-template-areas: 
+    "book time"
+    "red-sneakers red-sneakers"
+    "two-pair two-pair"
+    "two-pair two-pair"
+    "present-box present-box"
+    "laptop laptop"
+    "red-dress chem"
+    "red-dress ny-ball"
+    "ny2022 ny2022"
+  }
+
+  .shop__promo{
+    margin-bottom: 20px;
+  }
+
+  .discount-one{
+    right: 5px;
+    top:75px;
+  }
+  .discount-two{
+    top:5px;
+    left:5px;
+  }
+  .discount-three{
+    top: 63px;
+    right: 5px;
+  }
+  .discount-four{
+    bottom: 10px;
+    right: 10px;
+  }
+  .discount-five{
+    top:5px;
+    left:5px;
+  }
+
+  .shop__discount{
+    width: 50px;
+    height: 50px;
+
+    font-size: 16px;
+    text-align: center;
+    padding-top: 14px;
+  }
+
+
+  .shop__promo{
+    background-image: url(../img/banner-320.jpg);
+    background-repeat: no-repeat;
+    width:280px;
+    height: 340px;
+
+  }
+
+  .promo__text{
+    position: absolute;
+    font-weight: 700;
+    font-size: 22px;
+    top:50px;
+    left: 30px;
+    width: 100%;
+  }
+
+  .promo__time-one{
+    font-size: 8px;
+    left: 110px;
+    top: 268px;
+  }
+
+  .promo__time-two{
+    font-size: 12px;
+    bottom: 30px;
+    right: 56px;
+    word-spacing: 8px;
+  }
+
+  .promo__number{
+    font-size: 20px;
+  }
+
+  .book{
+    left: 10px;
+    top:76px;
+    font-size: 12px;
+    width: 65px;
+  }
+
+  .book-b{
+    font-size: 16px;
+  }
+
+  .time{
+    font-size: 12px;
+    left: 10px;
+    top:28px;
+  }
+
+  .second-pair{
+    left: 10px;
+    top: 234px;
+    font-size: 12px;
+    width: 260px;
+    height: 36px;
+    padding: 9px 25px;
+    white-space: nowrap;
+  }
+
+  .pair-b{
+    font-size: 16px;
+  }
+
+  .ny-present{
+    font-size: 12px;
+    top:88px;
+    left:10px;
+    }
+
+    .december{
+      font-size: 12px;
+      top:88px;
+      left: 10px;
+  }
+
+  .chemical{
+    font-size: 12px;
+    left: 9px;
+    bottom: 10px;
+  }
+
+  .ny-decoration{
+    border-radius: 6px;
+    width: 250px;
+    height: 30px;
+    font-size: 12px;
+    left: 15px;
+    bottom: 10px;
+    padding-top: 7px;
+  }
+}

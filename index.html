@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__container container">
+      <img class="header__logo" src="img/logo.svg" alt="Логотип магазина">
+      <button class="header__button">Меню</button>
+      <form class="header__form search" action="#">
+        <input class="search__field" type="text" placeholder="Я ищу...">
+        <button class="search__button" type="submit"><svg class="search__svg" width="16" height="" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19.25 17H18.065L17.645 16.595C19.115 14.885 20 12.665 20 10.25C20 4.865 15.635 0.5 10.25 0.5C4.865 0.5 0.5 4.865 0.5 10.25C0.5 15.635 4.865 20 10.25 20C12.665 20 14.885 19.115 16.595 17.645L17 18.065V19.25L24.5 26.735L26.735 24.5L19.25 17ZM10.25 17C6.515 17 3.5 13.985 3.5 10.25C3.5 6.515 6.515 3.5 10.25 3.5C13.985 3.5 17 6.515 17 10.25C17 13.985 13.985 17 10.25 17Z" fill="white" />
+        </svg></button>
+      </form>
+      <ul class="header__list">
+        <li class="header__item">
+        <a href="#" class="header__link link"><svg class="link-profile" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">              <path d="M12 12C15.315 12 18 9.315 18 6C18 2.685 15.315 0 12 0C8.685 0 6 2.685 6 6C6 9.315 8.685 12 12 12ZM12 15C7.995 15 0 17.01 0 21V24H24V21C24 17.01 16.005 15 12 15Z" fill="#2D2D2D" />
+          </svg><span class="link__name">Профиль</span></a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link link"><svg class="link-basket" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.5 24C7.85 24 6.515 25.35 6.515 27C6.515 28.65 7.85 30 9.5 30C11.15 30 12.5 28.65 12.5 27C12.5 25.35 11.15 24 9.5 24ZM0.5 0V3H3.5L8.9 14.385L6.875 18.06C6.635 18.48 6.5 18.975 6.5 19.5C6.5 21.15 7.85 22.5 9.5 22.5H27.5V19.5H10.13C9.92 19.5 9.755 19.335 9.755 19.125L9.8 18.945L11.15 16.5H22.325C23.45 16.5 24.44 15.885 24.95 14.955L30.32 5.22C30.44 5.01 30.5 4.755 30.5 4.5C30.5 3.675 29.825 3 29 3H6.815L5.405 0H0.5ZM24.5 24C22.85 24 21.515 25.35 21.515 27C21.515 28.65 22.85 30 24.5 30C26.15 30 27.5 28.65 27.5 27C27.5 25.35 26.15 24 24.5 24Z" fill="#2D2D2D" />
+          </svg><span class="link__name">Корзина</span></a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link link"><svg class="link-favorite" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 28.025L12.825 26.045C5.1 19.04 0 14.42 0 8.75C0 4.13 3.63 0.5 8.25 0.5C10.86 0.5 13.365 1.715 15 3.635C16.635 1.715 19.14 0.5 21.75 0.5C26.37 0.5 30 4.13 30 8.75C30 14.42 24.9 19.04 17.175 26.06L15 28.025Z" fill="#2D2D2D" />
+          </svg><span class="link__name">Избранное</span></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="shop">
+      <h1 class="visually-hidden">Сайт - идея новогодних подарков</h1>
+      <div class="shop__container container">
+        <div class="shop__promo promo">
+          <p class="promo__text">-50% на все ноутбуки</p>
+          <p class="promo__time-one">До конца акции:</p>
+          <p class="promo__time-two"> <span class="promo__number">3</span>дня <span class="promo__number">8</span>часов
+          <span class="promo__number"> 43</span>минуты</p>
+        </div>
+
+        <ul class="shop__list">
+          <li class="shop__item item-one">
+            <a href="#" class="shop__link link-one"><img class="shop__image-one" src="img/book.jpg">
+              <span class="book"> <b class="book-b">Книга</b> – лучший подарок</span></a>
+          </li>
+
+          <li class="shop__item item-two">
+            <a href="" class="shop__link link-two"><img class="shop__image-two" src="img/time.jpg" alt="">
+              <span class="time">Время скидок!</span>
+              <span class="shop__discount discount-one">-25%</span></a>
+          </li>
+          
+          <li class="shop__item item-three">
+            <a href="" class="shop__link"><img class="shop__image-three" src="img/red-sneakers.jpg" alt="">
+              <span class="shop__discount discount-two">-40%</span></a>
+          </li>
+
+          <li class="shop__item item-four">
+            <a href="" class="shop__link"><img class="shop__image-four" src="img/two-pair.jpg" alt="">
+              <span class="second-pair">Вторая пара кроссовок<b class="pair-b">в подарок!</b></span></a>
+          </li>
+
+          <li class="shop__item item-five">
+            <a href="" class="shop__link"><img class="shop__image-five" src="img/present-box.jpg" alt="" width="550" height="245">
+              <span class="ny-present">Идеи новогодних подарков</span></a>
+          </li>
+
+          <li class="shop__item item-six">
+            <a href="" class="shop__link"><img class="shop__image-six" src="img/laptop.jpg" alt="">
+              <span class="december">Выгодно в декабре!</span><span class="shop__discount discount-three">-15%</span></a>
+          </li>
+
+          <li class="shop__item item-seven">
+            <a href="" class="shop__link"><img class="shop__image-seven" src="img/red-dress.jpg" alt="">
+              <span class="shop__discount discount-four">-55%</span></a>
+          </li>
+
+          <li class="shop__item item-eight">
+            <a href="" class="shop__link"><img class="shop__image-eight" src="img/chem.jpg" alt="">
+              <span class="shop__discount discount-five">-25%</span> <span class="chemical">На бытовую химию</span></a>
+          </li>
+
+          <li class="shop__item item-nine">
+            <a href="" class="shop__link"><img class="shop__image-nine" src="img/ny-ball.jpg" alt="">
+            </a>
+          </li>
+
+          <li class="shop__item item-ten">
+            <a href="" class="shop__link"><img class="shop__image-ten" src="img/2022.jpg" alt="">
+              <span class="ny-decoration">Новогодние украшения</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -128,7 +128,7 @@
 
 @media (max-width:450px){
   .header__container{
-    row-gap: 20px;
+    row-gap: 5px;
   }
 
   .header__list{

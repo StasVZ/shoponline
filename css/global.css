@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  width: 1920px;
+  min-width: 320px;
   position: relative;
   overflow-x: hidden;
   min-width: 320px;
